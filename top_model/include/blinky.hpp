@@ -1,7 +1,7 @@
 #ifndef _BLINKY_HPP__
 #define _BLINKY_HPP__
 
-#include <cadmium/core/modeling/atomic.hpp>
+#include <cadmium/modeling/devs/atomic.hpp>
 
 #ifndef NO_LOGGING
 	#include <iostream>

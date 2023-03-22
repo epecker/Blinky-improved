@@ -1,11 +1,11 @@
 #ifndef CADMIUM_EXAMPLE_BLINKY_HPP_
 #define CADMIUM_EXAMPLE_BLINKY_HPP_
 
-#include <cadmium/core/modeling/coupled.hpp>
+#include <cadmium/modeling/devs/coupled.hpp>
 
 #ifdef RT_ARM_MBED
-	#include <cadmium/core/real_time/arm_mbed/io/digitalOutput.hpp>
-	#include <cadmium/core/real_time/arm_mbed/io/digitalInput.hpp>
+	#include <cadmium/simulation/_rt/real_time/arm_mbed/io/digitalOutput.hpp>
+	#include <cadmium/simulation/_rt/real_time/arm_mbed/io/digitalInput.hpp>
 #endif
 
 #include "digitalInputExt.hpp"
